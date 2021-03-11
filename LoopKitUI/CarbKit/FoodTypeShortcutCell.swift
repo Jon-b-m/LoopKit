@@ -17,6 +17,7 @@ public class FoodTypeShortcutCell: UITableViewCell {
     @IBOutlet var buttonStack: UIStackView!
 
     public enum SelectionState: Int {
+        case dextro
         case fast
         case medium
         case slow

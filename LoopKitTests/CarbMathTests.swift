@@ -110,6 +110,7 @@ class CarbMathTests: XCTestCase {
         
         let (carbRatios, insulinSensitivities) = loadSchedules()
         let defaultAbsorptionTimes = CarbStore.DefaultAbsorptionTimes(
+            dextro: TimeInterval(hours: 1),
             fast: TimeInterval(hours: 1),
             medium: TimeInterval(hours: 2),
             slow: TimeInterval(hours: 4)
@@ -177,6 +178,7 @@ class CarbMathTests: XCTestCase {
 
         let (carbRatios, insulinSensitivities) = loadSchedules()
         let defaultAbsorptionTimes = CarbStore.DefaultAbsorptionTimes(
+            dextro: TimeInterval(hours: 0.25),
             fast: TimeInterval(hours: 1),
             medium: TimeInterval(hours: 2),
             slow: TimeInterval(hours: 4)
@@ -230,6 +232,7 @@ class CarbMathTests: XCTestCase {
 
         let (carbRatios, insulinSensitivities) = loadSchedules()
         let defaultAbsorptionTimes = CarbStore.DefaultAbsorptionTimes(
+            dextro: TimeInterval(hours: 0.25),
             fast: TimeInterval(hours: 1),
             medium: TimeInterval(hours: 2),
             slow: TimeInterval(hours: 4)
@@ -286,6 +289,7 @@ class CarbMathTests: XCTestCase {
 
         let (carbRatios, insulinSensitivities) = loadSchedules()
         let defaultAbsorptionTimes = CarbStore.DefaultAbsorptionTimes(
+            dextro: TimeInterval(hours: 0.25),
             fast: TimeInterval(hours: 1),
             medium: TimeInterval(hours: 2),
             slow: TimeInterval(hours: 4)
@@ -348,6 +352,7 @@ class CarbMathTests: XCTestCase {
 
         let (carbRatios, insulinSensitivities) = loadSchedules()
         let defaultAbsorptionTimes = CarbStore.DefaultAbsorptionTimes(
+            dextro: TimeInterval(hours: 0.25),
             fast: TimeInterval(hours: 1),
             medium: TimeInterval(hours: 2),
             slow: TimeInterval(hours: 4)
@@ -429,6 +434,7 @@ class CarbMathTests: XCTestCase {
 
         let (carbRatios, insulinSensitivities) = loadSchedules()
         let defaultAbsorptionTimes = CarbStore.DefaultAbsorptionTimes(
+            dextro: TimeInterval(hours: 0.25),
             fast: TimeInterval(hours: 1),
             medium: TimeInterval(hours: 2),
             slow: TimeInterval(hours: 4)
@@ -482,6 +488,7 @@ class CarbMathTests: XCTestCase {
 
         let (carbRatios, insulinSensitivities) = loadSchedules()
         let defaultAbsorptionTimes = CarbStore.DefaultAbsorptionTimes(
+            dextro: TimeInterval(hours: 0.25),
             fast: TimeInterval(hours: 1),
             medium: TimeInterval(hours: 2),
             slow: TimeInterval(hours: 4)
@@ -537,6 +544,7 @@ class CarbMathTests: XCTestCase {
 
         let (carbRatios, insulinSensitivities) = loadSchedules()
         let defaultAbsorptionTimes = CarbStore.DefaultAbsorptionTimes(
+            dextro: TimeInterval(hours: 0.25),
             fast: TimeInterval(hours: 1),
             medium: TimeInterval(hours: 2),
             slow: TimeInterval(hours: 4)
@@ -601,6 +609,7 @@ class CarbMathTests: XCTestCase {
 
         let (carbRatios, insulinSensitivities) = loadSchedules()
         let defaultAbsorptionTimes = CarbStore.DefaultAbsorptionTimes(
+            dextro: TimeInterval(hours: 0.25),
             fast: TimeInterval(hours: 1),
             medium: TimeInterval(hours: 2),
             slow: TimeInterval(hours: 4)
@@ -654,6 +663,7 @@ class CarbMathTests: XCTestCase {
 
         let (carbRatios, insulinSensitivities) = loadSchedules()
         let defaultAbsorptionTimes = CarbStore.DefaultAbsorptionTimes(
+            dextro: TimeInterval(hours: 0.25),
             fast: TimeInterval(hours: 1),
             medium: TimeInterval(hours: 2),
             slow: TimeInterval(hours: 4)
