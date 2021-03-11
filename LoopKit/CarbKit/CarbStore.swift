@@ -65,9 +65,9 @@ public final class CarbStore: HealthKitSampleStore {
     /// Notification posted when carb entries were changed, either via add/replace/delete methods or from HealthKit
     public static let carbEntriesDidUpdate = NSNotification.Name(rawValue: "com.loudnate.CarbKit.carbEntriesDidUpdate")
 
-    public typealias DefaultAbsorptionTimes = (fast: TimeInterval, medium: TimeInterval, slow: TimeInterval)
+    public typealias DefaultAbsorptionTimes = (dextro: TimeInterval, fast: TimeInterval, medium: TimeInterval, slow: TimeInterval)
 
-    public static let defaultAbsorptionTimes: DefaultAbsorptionTimes = (fast: TimeInterval(hours: 2), medium: TimeInterval(hours: 3), slow: TimeInterval(hours: 4))
+    public static let defaultAbsorptionTimes: DefaultAbsorptionTimes = (dextro: TimeInterval(hours: 0.5), fast: TimeInterval(hours: 2), medium: TimeInterval(hours: 3), slow: TimeInterval(hours: 5))
 
     /// The default longest expected absorption time interval for carbohydrates: 8 hours.
     public static var defaultMaximumAbsorptionTimeInterval: TimeInterval {
